@@ -1,0 +1,215 @@
+.nav-link{
+    color: black;
+    font-style: inherit;
+    font-weight: inherit;
+}
+.nav-link:hover{
+    color: #f2295b;
+}
+.main-heading{
+    margin: auto;
+}
+.main-heading>h1{
+    font-family: 'Teko',sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.store-btn{
+    padding: 8px 19px 8px 8px; 
+    border-left: none;
+}
+.space{
+    height: 275px;
+    /* margin-left: 24px; */
+}
+.space>p{
+    margin-top:40% ;
+}
+.main-img>img{
+    height: 275px;
+    width: 100%;
+    background-size: cover;
+    display: inline-block;
+}
+.main-img-1{
+    background-image: url(./images/boy-img-2.jpg);
+    background-size: cover;
+}
+.main-img-1 p{
+    font-family: 'Teko',sans-serif;
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-top: 30%;
+}
+.my-para{
+    float: right;
+    width: 55%;
+    height: 33% ;
+}
+.store-btn-1{
+    padding: 8px 19px 8px 8px; 
+    border-left: none;
+    background-color: transparent;
+}
+@media only screen and (max-width:768px){
+    .nav{
+        display: none;
+    }
+    .main-heading>h1{
+        font-family: 'Teko',sans-serif;
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: center;
+    }
+    .main-heading{
+        text-align: center;
+    }
+    .main-heading p{
+        text-align: center;
+    }
+}
+@media only screen and (max-width:576px){
+    .boy-img>img{
+        width: 400px;
+    }
+    .main-heading>h1{
+        font-family: 'Teko',sans-serif;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+   .main-heading{
+       text-align: center;
+    }
+    .my-para>p{
+        font-size: 10px;
+        width: 40%;
+        height: 33% ;
+    }
+    .store-btn-1{
+        padding: 2px 10px 2px 2px !important;
+        width: 70px; 
+        height: 25px;
+        font-size: 7px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width:360px){
+    .boy-img>img{
+        width: 300px;
+    }
+    .boy-img>img{
+        width: 300px;
+    }
+    .main-heading>h1{
+        font-family: 'Teko',sans-serif;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .main-heading p{
+        width: 270px;
+        text-align: center;
+    }
+    .main-heading{
+        text-align: center;
+    }
+    .store-btn{
+        padding: 6px 14px 6px 6px; 
+        width: 80px; 
+        height: 30px;
+        font-size: 7px;
+    }
+    .my-para>p{
+        font-size: 10px;
+        width: 55%;
+        height: 33% ;
+    }
+    .store-btn-1{
+        padding: 2px 10px 2px 2px !important;
+        width: 60px; 
+        height: 20px;
+        font-size: 5px;
+        margin-top: 20px;
+    }
+}
+.main-position{
+    position: relative;
+}
+.main-img-2{
+    background: url(./images/mug-img.jpg);
+    background-size: cover;
+    height: 270px;
+    filter: opacity(30%);
+}
+.main-img-2 p{
+    margin: auto;
+    color: black;
+    width: 80%;
+    height: 30%;
+    font-size: 33px;
+    font-weight: 800;
+} 
+.girl-img>img{
+    height: 270px;
+    width: 100%;
+    background-size: cover;
+}
+.main-3{
+    text-align: center;
+    margin: auto; 
+}
+.main-3>img{
+    margin-top: 35%;
+}
+.front{
+    background-color: #f5f5f5;
+    margin-top: 20px;
+}
+.bari-heading{
+    margin-top: 15%;
+}
+.bari-heading>h1{
+    font-family: 'Teko',sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-left: 8%;
+}
+.bari-heading p{
+    width: 80%;
+    font-family: 'Teko',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 8%;
+}
+@media only screen and (max-width:768px){
+    .girl-img-5>img{
+        width: 300px;
+    }
+    .bari-heading{
+        margin-top: 15%;
+        text-align: center;
+    }
+    .bari-heading>h1{
+        font-family: 'Teko',sans-serif;
+        font-size: 1rem;
+        font-weight: 800;
+        margin-left: 8%;
+    }
+    .bari-heading p{
+        width: 80%;
+        font-family: 'Teko',sans-serif;
+        font-size: 9px;
+        font-weight: 400;
+        margin-left: 8%;
+        
+    }
+}
+@media only screen and (max-width:360px){
+    .girl-img-5>img{
+        width: 200px;
+        
+    }
+    .girl-img-5{
+       align-items: center;
+        
+    }
+}
