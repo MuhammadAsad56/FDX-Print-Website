@@ -9,6 +9,7 @@
 .main-heading{
     margin: auto;
 }
+
 .main-heading>h1{
     font-family: 'Teko',sans-serif;
     font-size: 4rem;
@@ -17,6 +18,9 @@
 .store-btn{
     padding: 8px 19px 8px 8px; 
     border-left: none;
+}
+.boy-img-top{
+    height: 576px;
 }
 .space{
     height: 275px;
@@ -69,8 +73,8 @@
     }
 }
 @media only screen and (max-width:576px){
-    .boy-img>img{
-        width: 400px;
+    .boy-img-top>img{
+        width: 360px;
     }
     .main-heading>h1{
         font-family: 'Teko',sans-serif;
@@ -94,9 +98,6 @@
     }
 }
 @media only screen and (max-width:360px){
-    .boy-img>img{
-        width: 300px;
-    }
     .boy-img>img{
         width: 300px;
     }
@@ -153,7 +154,11 @@
     width: 100%;
     background-size: cover;
 }
-.main-3{
+.bg-light{
+    height: 270px;
+}
+.boy-img{
+    height: 270px;
     text-align: center;
     margin: auto; 
 }
@@ -182,7 +187,21 @@
 }
 @media only screen and (max-width:768px){
     .girl-img-5>img{
-        width: 300px;
+        width: 200px;
+        margin-left: 18%;
+        text-align: center;
+    }
+    .bg-light{
+        width: 100%;
+    }
+    .bg-light img{
+        margin: 95px 100px;
+    }
+    .bg-light>p{
+        display: none;
+    }
+    .bg-light>{
+        margin: 95px 50%;
     }
     .bari-heading{
         margin-top: 15%;
@@ -206,10 +225,13 @@
 @media only screen and (max-width:360px){
     .girl-img-5>img{
         width: 200px;
-        
+       text-align: center;
+       margin-left: 15%;
     }
-    .girl-img-5{
-       align-items: center;
-        
-    }
+    
+}
+.asad{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
 }
